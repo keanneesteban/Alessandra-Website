@@ -1,0 +1,43 @@
+
+/* 1200px */
+/* 
+@media (max-width: 1200px; ) {} */
+
+
+
+/* 768px */
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        text-align: center;
+    }
+
+    .img-hero {
+        width: 400px;
+    }
+
+    .artwork-container-top,
+    .artwork-container-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .artwork {
+        width: 350px;
+    }
+
+}
+
+/* 375px */
+
+@media (max-width: 375px) {
+
+    .img-hero {
+        width: 300px;
+    }
+
+    .artwork {
+        width: 250px;
+    }
+}
